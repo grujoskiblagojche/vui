@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://imgur.com/IMWSQFN" alt="vUi" width="125" height="125">
+    <img src="https://i.imgur.com/IMWSQFN.png" alt="vUi" width="125" height="125">
 </p>
 
 <p align="center">Light, intuitive, and powerful front-end framework for faster and easier web development.</p>
