@@ -1,0 +1,19 @@
+@each $property, $value in $positions {
+    .#{$property} {
+        position: $value;
+    }
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll-x {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.scroll-y {
+    overflow-x: hidden;
+    overflow-y: auto;
+}

@@ -1,0 +1,19 @@
+@import './partials/variables';
+@import './partials/grid';
+@import './partials/columns';
+@import './partials/spacings';
+@import './partials/helpers';
+
+:root {
+	font-size: 16px;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    box-sizing: border-box;
+    
+	margin: 0;
+    padding: 0;
+}

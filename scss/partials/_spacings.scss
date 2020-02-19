@@ -1,0 +1,47 @@
+@import './variables';
+
+@each $size, $space in $spacings {
+    // MARGIN
+    .m_#{$size} {
+        margin: $space;
+    }
+
+    .m_t-#{$size} {
+        margin-top: $space;
+    }
+    .m_r-#{$size} {
+        margin-right: $space;
+    }
+    .m_b-#{$size} {
+        margin-bottom: $space;
+    }
+    .m_l-#{$size} {
+        margin-left: $space;
+    }
+
+    // PADDING
+    .p_#{$size} {
+        padding: $space;
+    }
+    
+    .p_t-#{$size} {
+        padding-top: $space;
+    }
+    .p_r-#{$size} {
+        padding-right: $space;
+    }
+    .p_b-#{$size} {
+        padding-bottom: $space;
+    }
+    .p_l-#{$size} {
+        padding-left: $space;
+    }
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}

@@ -1,0 +1,23 @@
+// === UI CONFIG === //
+
+// Define grid columns
+$grid-columns: 12;
+
+// Define general margin & padding values
+
+$sm: 0.3125rem;  // 5px
+$md: 0.625rem;   // 10px
+$lg: 0.9375rem;  // 15px
+
+$spacings: (
+    sm: $sm,
+    md: $md,
+    lg: $lg
+);
+
+$positions: (
+    relative: relative,
+    absolute: absolute,
+    fixed: fixed,
+    sticky: sticky
+);
