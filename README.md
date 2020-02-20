@@ -81,7 +81,7 @@ https://codesandbox.io/s/vui-layout-showcase-txmod
 
 - GRID
 
-`.container`- wraps content in middle by 80vw as a default
+`.container` - wraps content in middle by 80vw as a default
 <p></p>
 
 `.row` - align child elements horizontaly
@@ -122,7 +122,7 @@ https://codesandbox.io/s/vui-layout-showcase-txmod
 
 - COLLUMNS
 
-<em>Can be set to a custom value based on your needs into `_variables.scss` - `$grid-columns`, defaults to 12</em>.
+<em>Can be set to a custom value based on your needs into `_variables.scss` - `$grid-columns` (  defaults to 12 )</em>.
 
 `.col-1`
 `.col-2`
@@ -162,3 +162,5 @@ https://codesandbox.io/s/vui-layout-showcase-txmod
 `.hidden`
 `.scroll-x`
 `.scroll-y`
+
+`full-width`
