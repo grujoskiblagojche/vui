@@ -5,8 +5,9 @@
   height: 100vh;
   @extend .hidden;
 
-  .page {
-    padding: 0 $page-gap;
+  .container {
+    width: $container-width;
+    max-width: $container-max-width;
   }
 
 }

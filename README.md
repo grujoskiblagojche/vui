@@ -37,7 +37,7 @@ vui/
 │   │   ├── columns.scss
 │   │   ├── spacings.scss
 │   │   └── helpers.scss
-│   └── main.scss
+│   └── vui.scss
 │    
 ├── vui.css
 └── vui.min.css
@@ -51,43 +51,71 @@ vui/
 ## How To Configure?
 
 There are several options that you can configure into `scss/partials/_variables.scss`:
+
 - Number of grid columns ( <em>defaults to 12</em> )
-- General spacing values for margin & padding ( <em>sm / md / lg</em> ) represented in `rem` units, `:root` equals to `16px`
-- Page left & right space gap ( <em>defaults to 15px</em> )
+```
+$grid-columns: 12;
+```
+- General spacing values for margin & padding represented in `rem` units, `:root` equals to `16px`
+```
+$sm: 0.3125rem;  // 5px
+$md: 0.625rem;   // 10px
+$lg: 0.9375rem;  // 15px
+```
+- Page container width ( <em>defaults to `80vh` and max-width of `1440px` )
+```
+$container-width: 80vw;
+$container-max-width: 1440px;
+```
 - <em>more to come..</em>
+
 
 ## How To Use?
 
 You already know how to use this framework if you know the well known story about the `flex` parent. Who takes care of it's <em>children</em> elements, pointing them into a right direction :)
 
-We can start simple, getting into the concept by a real world example.
-We'll start building the following Ui model:
+We can start simple, getting into the concept by a real world examples:
+
+https://codesandbox.io/s/vui-layout-showcase-txmod
+
 
 ## Cheat Sheet
 
 - GRID
 
-`.row` - align child elements horizontaly
-`.col` - align child elements verticaly
+`.container` <p>- wraps content in middle by 80vw as a default</p>
+
+`.row` <p>- align child elements horizontaly</p>
+
+`.col` <p>- align child elements verticaly</p>
 
 `.h-start`  or `.h-s`
+
 `.h-center` or `.h-c`
+
 `.h-end`    or `.h-s`
 
+
 `.v-start`  or `.v-s`
+
 `.v-center` or `.v-c`
+
 `.v-end`    or `.v-e`
 
-`.abs` - align child elements in absolute center
-`.spa` - make equal space around child elements
-`.spb` - make equal space between child elements
 
-`.wrap` - makes child elements to wrap into another row based on their width
+`.abs` <p>- align child elements in absolute center</p>
+
+`.spa` <p>- make equal space around child elements</p>
+
+`.spb` <p>- make equal space between child elements</p>
+
+
+`.wrap` <p>- makes child elements to wrap into another row based on their width</p>
 
 
 - COLLUMNS
 
-<em>Can be set to a custom value based on your needs into `_variables.scss` - `$$grid-columns`, defaults to 12</em>.
+<em>Can be set to a custom value based on your needs into `_variables.scss` - `$grid-columns`, defaults to 12</em>.
 
 `.col-1`
 `.col-2`
@@ -123,3 +151,7 @@ We'll start building the following Ui model:
 `.absolute`
 `.fixed`
 `.sticky`
+
+`.hidden`
+`.scroll-x`
+`.scroll-y`

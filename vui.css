@@ -29,13 +29,18 @@
   overflow-y: auto;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .vui {
   width: 100vw;
   height: 100vh;
 }
 
-.vui .page {
-  padding: 0 0.9375rem;
+.vui .container {
+  width: 80vw;
+  max-width: 1440px;
 }
 
 .row, .col {
@@ -339,6 +344,10 @@
 .scroll-y {
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+.full-width {
+  width: 100%;
 }
 
 :root {

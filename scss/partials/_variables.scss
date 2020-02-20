@@ -10,7 +10,8 @@ $md: 0.625rem;   // 10px
 $lg: 0.9375rem;  // 15px
 
 // Define app header height
-$page-gap: $lg;
+$container-width: 80vw;
+$container-max-width: 1440px;
 
 $spacings: (
     sm: $sm,
