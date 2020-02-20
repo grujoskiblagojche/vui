@@ -50,7 +50,7 @@ vui/
 
 ## How To Configure?
 
-There are several options that you can configure into `scss/partials/_variables.scss`:
+There are several options that you can configure into `scss/partials/_variables.scss`
 
 - Number of grid columns ( <em>defaults to 12</em> )
 ```
@@ -74,7 +74,7 @@ $container-max-width: 1440px;
 
 You already know how to use this framework if you know the well known story about the `flex` parent. Who takes care of it's <em>children</em> elements, pointing them into a right direction :)
 
-We can start simple, getting into the concept by a real world examples:
+<p>We can start simple, getting into the concept by a real world examples:</p>
 
 https://codesandbox.io/s/vui-layout-showcase-txmod
 
