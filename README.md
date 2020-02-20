@@ -74,41 +74,51 @@ $container-max-width: 1440px;
 You already know how to use this framework if you know the well known story about the `flex` parent. Who takes care of it's <em>children</em> elements, pointing them into a right direction :)
 
 We can start simple, getting into the concept by a real world examples:
+
 https://codesandbox.io/s/vui-layout-showcase-txmod
 
 ## Cheat Sheet
 
 - GRID
 
-`.container` <p>- wraps content in middle by 80vw as a default</p>
+`.container`- wraps content in middle by 80vw as a default
+<p></p>
 
-`.row` <p>- align child elements horizontaly</p>
+`.row` - align child elements horizontaly
+<p></p>
 
-`.col` <p>- align child elements verticaly</p>
+`.col` - align child elements verticaly
+<p></p>
 
-`.h-start`  or `.h-s`
+`.h-start` or `.h-s` - align horizontal start
+<p></p>
 
-`.h-center` or `.h-c`
+`.h-center` or `.h-c` - align horizontal center
+<p></p>
 
-`.h-end`    or `.h-s`
+`.h-end` or `.h-s` - align horizontal end
+<p></p>
+<p></p>
 
+`.v-start` or `.v-s` - align vertical start
 
-`.v-start`  or `.v-s`
+`.v-center` or `.v-c` - align vertical center
 
-`.v-center` or `.v-c`
-
-`.v-end`    or `.v-e`
-
-
-`.abs` <p>- align child elements in absolute center</p>
-
-`.spa` <p>- make equal space around child elements</p>
-
-`.spb` <p>- make equal space between child elements</p>
+`.v-end` or `.v-e` - align vertical end
 
 
-`.wrap` <p>- makes child elements to wrap into another row based on their width</p>
+`.abs` - align child elements in absolute center
+<p></p>
 
+`.spa` - make equal space around child elements
+<p></p>
+
+`.spb` - make equal space between child elements
+<p></p>
+<p></p>
+
+`.wrap` - makes child elements to wrap into another row based on their width
+<p></p>
 
 - COLLUMNS
 
