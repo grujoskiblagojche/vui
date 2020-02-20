@@ -62,22 +62,19 @@ $sm: 0.3125rem;  // 5px
 $md: 0.625rem;   // 10px
 $lg: 0.9375rem;  // 15px
 ```
-- Page container width ( <em>defaults to `80vh` and max-width of `1440px` )
+- Page container width ( <em>defaults to `80vh` and max-width of `1440px`</em> )
 ```
 $container-width: 80vw;
 $container-max-width: 1440px;
 ```
-- more to come..
-
+- <em>more to come..</em>
 
 ## How To Use?
 
 You already know how to use this framework if you know the well known story about the `flex` parent. Who takes care of it's <em>children</em> elements, pointing them into a right direction :)
 
-<p>We can start simple, getting into the concept by a real world examples:</p>
-
+We can start simple, getting into the concept by a real world examples:
 https://codesandbox.io/s/vui-layout-showcase-txmod
-
 
 ## Cheat Sheet
 
