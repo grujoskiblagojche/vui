@@ -43,18 +43,18 @@ vui/
 └── vui.min.css
 ```
 
-    - Default `vui.css` ready for development and possible [optimizations](#how-to-use) before a project release
-    - Minified `vui.min.css` version ready to be used in production
-    - Core framework files and partials into the `scss` folder
+- Default `vui.css` ready for development and possible [optimizations](#how-to-use) before a project release
+- Minified `vui.min.css` version ready to be used in production
+- Core framework files and partials into the `scss` folder
 
 
 ## How To Configure?
 
 There are several options that you can configure into `scss/partials/_variables.scss`:
-    - Number of grid columns ( <em>defaults to 12</em> )
-    - General spacing values for margin & padding ( <em>sm / md / lg</em> ) represented in `rem` units, `:root` equals to `16px`
-    - Page left & right space gap ( <em>defaults to 15px</em> )
-    - <em>more to come..</em>
+- Number of grid columns ( <em>defaults to 12</em> )
+- General spacing values for margin & padding ( <em>sm / md / lg</em> ) represented in `rem` units, `:root` equals to `16px`
+- Page left & right space gap ( <em>defaults to 15px</em> )
+- <em>more to come..</em>
 
 ## How To Use?
 
@@ -63,3 +63,63 @@ You already know how to use this framework if you know the well known story abou
 We can start simple, getting into the concept by a real world example.
 We'll start building the following Ui model:
 
+## Cheat Sheet
+
+- GRID
+
+`.row` - align child elements horizontaly
+`.col` - align child elements verticaly
+
+`.h-start`  or `.h-s`
+`.h-center` or `.h-c`
+`.h-end`    or `.h-s`
+
+`.v-start`  or `.v-s`
+`.v-center` or `.v-c`
+`.v-end`    or `.v-e`
+
+`.abs` - align child elements in absolute center
+`.spa` - make equal space around child elements
+`.spb` - make equal space between child elements
+
+`.wrap` - makes child elements to wrap into another row based on their width
+
+
+- COLLUMNS
+
+<em>Can be set to a custom value based on your needs into `_variables.scss` - `$$grid-columns`, defaults to 12</em>.
+
+`.col-1`
+`.col-2`
+`.col-3`
+.
+.
+.
+`.col-n`
+
+
+- SPACINGS ( <em>margin / padding</em> )
+
+<em>Use</em> `_` <em>for directions ( top / right / left / bottom ), and</em> `-` <em>for size values ( sm / md / lg )</em>.
+
+`.m-sm`
+
+`.m_t-sm`
+`.m_r-sm`
+`.m_b-sm`
+`.m_l-sm`
+
+`.p-sm`
+
+`.p_t-sm`
+`.p_r-sm`
+`.p_b-sm`
+`.p_l-sm`
+
+
+- HELPERS
+
+`.relative`
+`.absolute`
+`.fixed`
+`.sticky`

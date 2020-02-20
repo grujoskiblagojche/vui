@@ -2,7 +2,7 @@
 
 @each $size, $space in $spacings {
     // MARGIN
-    .m_#{$size} {
+    .m-#{$size} {
         margin: $space;
     }
 
@@ -20,7 +20,7 @@
     }
 
     // PADDING
-    .p_#{$size} {
+    .p-#{$size} {
         padding: $space;
     }
     
