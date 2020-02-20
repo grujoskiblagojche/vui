@@ -43,18 +43,18 @@ vui/
 └── vui.min.css
 ```
 
-    - Default `vui.css` ready for development and possible [optimizations](#how-to-use) before a project release
-    - Minified `vui.min.css` version ready to be used in production
-    - Core framework files and partials into the `scss` folder
+- Default `vui.css` ready for development and possible [optimizations](#how-to-use) before a project release
+- Minified `vui.min.css` version ready to be used in production
+- Core framework files and partials into the `scss` folder
 
 
 ## How To Configure?
 
 There are several options that you can configure into `scss/partials/_variables.scss`:
-    - Number of grid columns ( <em>defaults to 12</em> )
-    - General spacing values for margin & padding ( <em>sm / md / lg</em> ) represented in `rem` units, `:root` equals to `16px`
-    - Page left & right space gap ( <em>defaults to 15px</em> )
-    - <em>more to come..</em>
+- Number of grid columns ( <em>defaults to 12</em> )
+- General spacing values for margin & padding ( <em>sm / md / lg</em> ) represented in `rem` units, `:root` equals to `16px`
+- Page left & right space gap ( <em>defaults to 15px</em> )
+- <em>more to come..</em>
 
 ## How To Use?
 
