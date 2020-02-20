@@ -1,9 +1,9 @@
 <img src="https://i.imgur.com/IMWSQFN.png" alt="vUi" width="125" height="125">
 
-<p align="center">
+<p>
 The most lightweight, performant, and powerful front-end framework for faster and easier Ui development.
 <br>
-Configure it by your needs and get ready to rock!
+<em>Configure it by your needs and get ready to rock!</em>
 </p>
 
 
@@ -11,7 +11,9 @@ Configure it by your needs and get ready to rock!
 
 - [Quick start](#quick-start)
 - [What's included](#whats-included)
+- [How to configure ?](#how-to-configure)
 - [How to use ?](#how-to-use)
+- [Cheat Sheet](#cheat-sheet)
 
 
 ## Quick start
@@ -28,7 +30,7 @@ Within the download you'll find the following directories and files combined int
 
 ```text
 vui/
-└── scss/
+├── scss/
 │   ├── partials/
 │   │   ├── variables.scss
 │   │   ├── grid.scss
@@ -41,16 +43,23 @@ vui/
 └── vui.min.css
 ```
 
-A default compiled `vui.css` ready for development and optimization before project release.
-And a default minified `vui.min.css` framework version ready to be used in production.
+    - Default `vui.css` ready for development and possible [optimizations](#how-to-use) before a project release
+    - Minified `vui.min.css` version ready to be used in production
+    - Core framework files and partials into the `scss` folder
 
-<em>Note:</em> - "working with `vui.css` is recommended during development because it is easier to [optimize](#how-to-use) in case you want to lower it's  ` 2.95 KB ` size".
 
-It is true, you can do that too :)
+## How To Configure?
 
+There are several options that you can configure into `scss/partials/_variables.scss`:
+    - Number of grid columns ( <em>defaults to 12</em> )
+    - General spacing values for margin & padding ( <em>sm / md / lg</em> ) represented in `rem` units, `:root` equals to `16px`
+    - Page left & right space gap ( <em>defaults to 15px</em> )
+    - <em>more to come..</em>
 
 ## How To Use?
 
 You already know how to use this framework if you know the well known story about the `flex` parent. Who takes care of it's <em>children</em> elements, pointing them into a right direction :)
 
-We can start simple ...
+We can start simple, getting into the concept by a real world example.
+We'll start building the following Ui model:
+

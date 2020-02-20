@@ -1,3 +1,43 @@
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.hidden, .vui {
+  overflow: hidden;
+}
+
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.scroll-y {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.vui {
+  width: 100vw;
+  height: 100vh;
+}
+
+.vui .page {
+  padding: 0 0.9375rem;
+}
+
 .row, .col {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -282,7 +322,7 @@
   position: sticky;
 }
 
-.hidden {
+.hidden, .vui {
   overflow: hidden;
 }
 
@@ -308,4 +348,3 @@
   margin: 0;
   padding: 0;
 }
-/*# sourceMappingURL=main.css.map */

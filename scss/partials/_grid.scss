@@ -1,3 +1,16 @@
+@import './helpers';
+
+.vui {
+  width: 100vw;
+  height: 100vh;
+  @extend .hidden;
+
+  .page {
+    padding: 0 $page-gap;
+  }
+  
+}
+
 .row, .col {
   display: flex;
 }

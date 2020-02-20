@@ -9,6 +9,9 @@ $sm: 0.3125rem;  // 5px
 $md: 0.625rem;   // 10px
 $lg: 0.9375rem;  // 15px
 
+// Define app header height
+$page-gap: $lg;
+
 $spacings: (
     sm: $sm,
     md: $md,
