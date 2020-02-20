@@ -67,7 +67,7 @@ $lg: 0.9375rem;  // 15px
 $container-width: 80vw;
 $container-max-width: 1440px;
 ```
-- <em>more to come..</em>
+- more to come..
 
 
 ## How To Use?
