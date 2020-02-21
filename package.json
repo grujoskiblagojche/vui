@@ -1,5 +1,5 @@
 {
-  "name": "vui",
+  "name": "vui.rocks",
   "version": "0.1.0",
   "description": "The most lightweight, performant, and powerful front-end framework for faster and easier Ui development.",
   "main": "index.js",
@@ -7,6 +7,12 @@
     "dev": "node-sass --watch scss -o css",
     "prod": "node-sass --include-path scss scss/vui.scss css/vui.min.css --output-style compressed & node-sass --include-path scss scss/vui.scss css/vui.css --output-style"
   },
+  "style": "css/vui.css",
+  "sass": "scss/vui.scss",
+  "files": [
+    "css/*",
+    "scss/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grujoskiblagojche/vui.git"
