@@ -358,6 +358,70 @@
   height: 100%;
 }
 
+.c-primary {
+  color: #2D728F;
+}
+
+.bg-primary {
+  background-color: #2D728F;
+}
+
+.c-secondary {
+  color: #9CAEA9;
+}
+
+.bg-secondary {
+  background-color: #9CAEA9;
+}
+
+.c-success {
+  color: #3aaa78;
+}
+
+.bg-success {
+  background-color: #3aaa78;
+}
+
+.c-danger {
+  color: #EF2D56;
+}
+
+.bg-danger {
+  background-color: #EF2D56;
+}
+
+.c-warning {
+  color: #ED7D3A;
+}
+
+.bg-warning {
+  background-color: #ED7D3A;
+}
+
+.c-info {
+  color: #DCED31;
+}
+
+.bg-info {
+  background-color: #DCED31;
+}
+
+.c-light {
+  color: #f7f7f7;
+}
+
+.bg-light {
+  background-color: #f7f7f7;
+}
+
+.c-dark {
+  color: #363537;
+}
+
+.bg-dark {
+  background-color: #363537;
+}
+
 :root {
   font-size: 16px;
 }
@@ -370,3 +434,4 @@
   margin: 0;
   padding: 0;
 }
+/*# sourceMappingURL=vui.css.map */

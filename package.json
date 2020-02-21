@@ -1,0 +1,28 @@
+{
+  "name": "vui",
+  "version": "0.1.0",
+  "description": "The most lightweight, performant, and powerful front-end framework for faster and easier Ui development.",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grujoskiblagojche/vui.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "ui",
+    "framework"
+  ],
+  "author": "Grujoski Blagojche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grujoskiblagojche/vui/issues"
+  },
+  "homepage": "https://github.com/grujoskiblagojche/vui#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

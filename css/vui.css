@@ -1,0 +1,290 @@
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.fixed {
+  position: fixed; }
+
+.sticky {
+  position: sticky; }
+
+.hidden, .vui {
+  overflow: hidden; }
+
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden; }
+
+.scroll-y {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.full-width {
+  width: 100%; }
+
+.full-height {
+  height: 100%; }
+
+.vui {
+  width: 100vw;
+  height: 100vh; }
+  .vui .container {
+    width: 80vw;
+    max-width: 1440px; }
+
+.row, .col {
+  display: flex; }
+
+.row {
+  flex-direction: row; }
+
+.col {
+  flex-direction: column; }
+
+.justify-content-center, .row.h-center, .row.h-c, .col.v-center, .col.v-c, .abs {
+  justify-content: center; }
+
+.align-items-center, .row.v-center, .row.v-c, .col.h-center, .col.h-c, .abs {
+  align-items: center; }
+
+.justify-content-start, .row.h-start, .row.h-s, .col.v-start, .col.v-s {
+  justify-content: flex-start; }
+
+.justify-content-end, .row.h-end, .row.h-e, .col.v-end, .col.v-e {
+  justify-content: flex-end; }
+
+.align-items-start, .row.v-start, .row.v-s, .col.h-start, .col.h-s {
+  align-items: flex-start; }
+
+.align-items-end, .row.v-end, .row.v-e, .col.h-end, .col.h-e {
+  align-items: flex-end; }
+
+.spb {
+  justify-content: space-between; }
+
+.spa {
+  justify-content: space-around; }
+
+.wrap {
+  flex-wrap: wrap; }
+
+.col-1 {
+  flex: 1; }
+
+.col-2 {
+  flex: 2; }
+
+.col-3 {
+  flex: 3; }
+
+.col-4 {
+  flex: 4; }
+
+.col-5 {
+  flex: 5; }
+
+.col-6 {
+  flex: 6; }
+
+.col-7 {
+  flex: 7; }
+
+.col-8 {
+  flex: 8; }
+
+.col-9 {
+  flex: 9; }
+
+.col-10 {
+  flex: 10; }
+
+.col-11 {
+  flex: 11; }
+
+.col-12 {
+  flex: 12; }
+
+.m-sm {
+  margin: 0.3125rem; }
+
+.m_t-sm {
+  margin-top: 0.3125rem; }
+
+.m_r-sm {
+  margin-right: 0.3125rem; }
+
+.m_b-sm {
+  margin-bottom: 0.3125rem; }
+
+.m_l-sm {
+  margin-left: 0.3125rem; }
+
+.p-sm {
+  padding: 0.3125rem; }
+
+.p_t-sm {
+  padding-top: 0.3125rem; }
+
+.p_r-sm {
+  padding-right: 0.3125rem; }
+
+.p_b-sm {
+  padding-bottom: 0.3125rem; }
+
+.p_l-sm {
+  padding-left: 0.3125rem; }
+
+.m-md {
+  margin: 0.625rem; }
+
+.m_t-md {
+  margin-top: 0.625rem; }
+
+.m_r-md {
+  margin-right: 0.625rem; }
+
+.m_b-md {
+  margin-bottom: 0.625rem; }
+
+.m_l-md {
+  margin-left: 0.625rem; }
+
+.p-md {
+  padding: 0.625rem; }
+
+.p_t-md {
+  padding-top: 0.625rem; }
+
+.p_r-md {
+  padding-right: 0.625rem; }
+
+.p_b-md {
+  padding-bottom: 0.625rem; }
+
+.p_l-md {
+  padding-left: 0.625rem; }
+
+.m-lg {
+  margin: 0.9375rem; }
+
+.m_t-lg {
+  margin-top: 0.9375rem; }
+
+.m_r-lg {
+  margin-right: 0.9375rem; }
+
+.m_b-lg {
+  margin-bottom: 0.9375rem; }
+
+.m_l-lg {
+  margin-left: 0.9375rem; }
+
+.p-lg {
+  padding: 0.9375rem; }
+
+.p_t-lg {
+  padding-top: 0.9375rem; }
+
+.p_r-lg {
+  padding-right: 0.9375rem; }
+
+.p_b-lg {
+  padding-bottom: 0.9375rem; }
+
+.p_l-lg {
+  padding-left: 0.9375rem; }
+
+.no-margin {
+  margin: 0; }
+
+.no-padding {
+  padding: 0; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.fixed {
+  position: fixed; }
+
+.sticky {
+  position: sticky; }
+
+.hidden, .vui {
+  overflow: hidden; }
+
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden; }
+
+.scroll-y {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.full-width {
+  width: 100%; }
+
+.full-height {
+  height: 100%; }
+
+.c-primary {
+  color: #2D728F; }
+
+.bg-primary {
+  background-color: #2D728F; }
+
+.c-secondary {
+  color: #9CAEA9; }
+
+.bg-secondary {
+  background-color: #9CAEA9; }
+
+.c-success {
+  color: #3aaa78; }
+
+.bg-success {
+  background-color: #3aaa78; }
+
+.c-danger {
+  color: #EF2D56; }
+
+.bg-danger {
+  background-color: #EF2D56; }
+
+.c-warning {
+  color: #ED7D3A; }
+
+.bg-warning {
+  background-color: #ED7D3A; }
+
+.c-info {
+  color: #DCED31; }
+
+.bg-info {
+  background-color: #DCED31; }
+
+.c-light {
+  color: #f7f7f7; }
+
+.bg-light {
+  background-color: #f7f7f7; }
+
+.c-dark {
+  color: #363537; }
+
+.bg-dark {
+  background-color: #363537; }
+
+:root {
+  font-size: 16px; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }

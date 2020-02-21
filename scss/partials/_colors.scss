@@ -1,0 +1,12 @@
+@import './variables';
+
+@each $prefix, $color in $colors {
+    // TEXT COLORS
+    .c-#{$prefix} {
+        color: $color;
+	}
+	// BACKGROUND COLORS
+	.bg-#{$prefix} {
+        background-color: $color;
+	}
+}

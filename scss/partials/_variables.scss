@@ -4,19 +4,30 @@
 $grid-columns: 12;
 
 // Define general margin & padding values
-
 $sm: 0.3125rem;  // 5px
 $md: 0.625rem;   // 10px
 $lg: 0.9375rem;  // 15px
-
-// Define app header height
-$container-width: 80vw;
-$container-max-width: 1440px;
 
 $spacings: (
     sm: $sm,
     md: $md,
     lg: $lg
+);
+
+// Define container width / max-width
+$container-width: 80vw;
+$container-max-width: 1440px;
+
+// Define ui colors
+$colors: (
+	primary: #2D728F,
+	secondary: #9CAEA9,
+	success: #3aaa78,
+	danger: #EF2D56,
+	warning: #ED7D3A,
+	info: #DCED31,
+	light: #f7f7f7,
+	dark: #363537
 );
 
 $positions: (
