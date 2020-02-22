@@ -1,4 +1,4 @@
-@import './variables';
+@import './config';
 
 @for $i from 1 through $grid-columns {
     .col-#{$i} {

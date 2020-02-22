@@ -1,10 +1,13 @@
-@import './variables';
+@import './config';
 
-@each $prefix, $color in $colors {
+@each $prefix, $color in $textColors {
     // TEXT COLORS
     .c-#{$prefix} {
         color: $color;
 	}
+}
+
+@each $prefix, $color in $bgColors {
 	// BACKGROUND COLORS
 	.bg-#{$prefix} {
         background-color: $color;

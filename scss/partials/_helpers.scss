@@ -1,3 +1,10 @@
+$positions: (
+    relative: relative,
+    absolute: absolute,
+    fixed: fixed,
+    sticky: sticky
+);
+
 @each $property, $value in $positions {
     .#{$property} {
         position: $value;

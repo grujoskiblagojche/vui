@@ -30,9 +30,18 @@ $colors: (
 	dark: #363537
 );
 
-$positions: (
-    relative: relative,
-    absolute: absolute,
-    fixed: fixed,
-    sticky: sticky
+// Define Text colors
+$textColors: (
+    light: map-get($colors, 'light' ),
+    dark: map-get($colors, 'dark' ),
+    warning: map-get($colors, 'warning' ),
+    danger: map-get($colors, 'danger' )
+);
+
+// Define Background colors
+$bgColors: (
+	primary: map-get($colors, 'primary' ),
+    secondary: map-get($colors, 'secondary' ),
+    light: map-get($colors, 'light' ),
+    dark: map-get($colors, 'dark' )
 );

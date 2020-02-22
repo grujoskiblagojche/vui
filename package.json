@@ -1,7 +1,7 @@
 {
   "name": "vui.rocks",
-  "version": "0.1.0",
-  "description": "The most lightweight, performant, and powerful front-end framework for faster and easier Ui development.",
+  "version": "0.1.1",
+  "description": "The most lightweight, performant, and powerful front-end framework for faster and easier Mobile UI Development.",
   "main": "index.js",
   "scripts": {
     "dev": "node-sass --watch scss -o css",

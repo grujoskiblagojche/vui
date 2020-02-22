@@ -231,50 +231,26 @@
 .full-height {
   height: 100%; }
 
-.c-primary {
-  color: #2D728F; }
+.c-light {
+  color: #f7f7f7; }
 
-.bg-primary {
-  background-color: #2D728F; }
-
-.c-secondary {
-  color: #9CAEA9; }
-
-.bg-secondary {
-  background-color: #9CAEA9; }
-
-.c-success {
-  color: #3aaa78; }
-
-.bg-success {
-  background-color: #3aaa78; }
-
-.c-danger {
-  color: #EF2D56; }
-
-.bg-danger {
-  background-color: #EF2D56; }
+.c-dark {
+  color: #363537; }
 
 .c-warning {
   color: #ED7D3A; }
 
-.bg-warning {
-  background-color: #ED7D3A; }
+.c-danger {
+  color: #EF2D56; }
 
-.c-info {
-  color: #DCED31; }
+.bg-primary {
+  background-color: #2D728F; }
 
-.bg-info {
-  background-color: #DCED31; }
-
-.c-light {
-  color: #f7f7f7; }
+.bg-secondary {
+  background-color: #9CAEA9; }
 
 .bg-light {
   background-color: #f7f7f7; }
-
-.c-dark {
-  color: #363537; }
 
 .bg-dark {
   background-color: #363537; }
