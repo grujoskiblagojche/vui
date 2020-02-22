@@ -16,12 +16,32 @@ The most lightweight, performant, and powerful front-end framework for faster an
 - [Cheat Sheet](#cheat-sheet)
 
 
-## Quick start
+## Quick Start
 
+- Install `vui.style` into your project
 
-- Download the latest release: https://github.com/grujoskiblagojche/vui/archive/master.zip
-- Clone the repo: `git clone https://github.com/grujoskiblagojche/vui`
-- Add the `/scss` source files into your project
+```
+npm install vui.style
+```
+
+- Import what you need
+
+```
+@import 'vui.style/scss/partials/config';
+@import 'vui.style/scss/partials/grid';
+@import 'vui.style/scss/partials/columns';
+@import 'vui.style/scss/partials/spacings';
+@import 'vui.style/scss/partials/helpers';
+@import 'vui.style/scss/partials/colors';
+```
+
+- or import entire vui framework
+
+```
+@import "vui.style/scss/vui.scss"
+or
+@import "vui.style/css/vui.min.css"
+```
 
 
 ## What's included
